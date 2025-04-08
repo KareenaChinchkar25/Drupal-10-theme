@@ -38,7 +38,7 @@ Our platform ensures a smooth and secure travel experience. From ticket booking 
 ---
 
 ## 📁 Directory Structure
-
+<pre>
 ```bash
 mytheme/
 ├── css/
@@ -50,6 +50,7 @@ mytheme/
 ├── mytheme.info.yml
 ├── mytheme.libraries.yml
 └── README.md
+</pre>
 ## 🔧 Step-by-Step Setup Guide
 
 ### ✅ Step 1: Clone or Download Repository
