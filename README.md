@@ -1,6 +1,6 @@
 # MyTheme - Drupal 10 Custom Theme with Tailwind CSS
 
-**MyTheme** is a lightweight and responsive Drupal 10 custom theme built using **Tailwind CSS**. It is designed for tourism-based websites, focusing on clean design, ease of customization, and enhanced user experience.
+MyTheme is a lightweight and responsive Drupal 10 custom theme built using Tailwind CSS. It is designed for tourism-based websites, focusing on clean design, ease of customization, and enhanced user experience.
 
 ---
 
@@ -12,12 +12,12 @@ MyTheme is ideal for showcasing destinations, travel packages, and tourism servi
 
 ## 🧰 Features
 
-- Built with Tailwind CSS for modern utility-first styling
-- Responsive layout optimized for all devices
-- Custom regions: Top Banner, Logo, Navigation Menu, Sidebar, Content, Footer
-- Placeholder content and test buttons for development
-- Easily extendable and customizable structure
-- Works without requiring a base theme like Classy or Stable
+- Built with Tailwind CSS for modern utility-first styling  
+- Responsive layout optimized for all devices  
+- Custom regions: Top Banner, Logo, Navigation Menu, Sidebar, Content, Footer  
+- Placeholder content and test buttons for development  
+- Easily extendable and customizable structure  
+- Works without requiring a base theme like Classy or Stable  
 
 ---
 
@@ -39,15 +39,81 @@ Our platform ensures a smooth and secure travel experience. From ticket booking 
 
 ## 📁 Directory Structure
 
-<pre><code>```bash mytheme/ ├── css/ │ └── style.css ├── js/ │ └── script.js ├── templates/ │ └── page.html.twig ├── mytheme.info.yml ├── mytheme.libraries.yml └── README.md ```</code></pre>
+```bash
+mytheme/
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── templates/
+│   └── page.html.twig
+├── mytheme.info.yml
+├── mytheme.libraries.yml
+└── README.md
+## 🔧 Step-by-Step Setup Guide
+
+### ✅ Step 1: Clone or Download Repository
+Clone the repository or download and unzip it in your local machine.
+
+### ✅ Step 2: Move Theme Folder
+Move the theme directory to your Drupal custom themes folder:
+
+/htdocs/drupal/themes/custom/mytheme
+
+### ✅ Step 3: Enable Theme
+1. Go to **Drupal Admin → Appearance**
+2. Find **MyTheme**
+3. Click **Install and Set as Default**
 
 ---
 
-## 🚀 How to Use
+## 🚀 Front Page Setup
 
-1. Copy the `mytheme` folder to `/themes/custom/` inside your Drupal installation.
-2. Enable the theme via the Drupal admin interface or use Drush.
-3. Assign blocks to regions like "Top Banner", "Navigation", and "Sidebar".
-4. Create a Basic Page and set it as the front page.
-5. Start adding your content and customizing the design.
+1. Navigate to:  
+   `/admin/content` → **Add content** → **Basic page**
 
+2. **Title**: Home Page  
+   **Body**: Add some dummy content (e.g., “Welcome to the Tourism Website!”)  
+   Click **Save**
+
+3. Go to:  
+   `/admin/config/system/site-information`
+
+4. Set **Default front page** to `/home-page` (or your newly created page's path)
+
+---
+
+## 🛠️ Customizations
+
+- **Framework**: Tailwind CSS for utility-first styling  
+- **No base theme** like Classy or Stable required  
+- **Custom Regions**:  
+  - Top Banner  
+  - Logo  
+  - Navigation Menu  
+  - Sidebar  
+  - Content  
+  - Footer  
+- **Features**:  
+  - Responsive layout  
+  - Animations and hover effects  
+  - Clean structure for easy customization
+
+---
+
+## ✅ Compatibility
+
+- **Drupal**: 10.x  
+- **Environment**: XAMPP (PHP 8.x, MySQL 5.7+)  
+- **Browsers**: Cross-browser compatible
+
+---
+
+## 📌 Submission Info
+
+- **Developer**: Kareena Chinchkar  
+- **GitHub ID**: [KareenaChinchkar25](https://github.com/KareenaChinchkar25)  
+- **Access Provided To**: `akshay9085`  
+- **Submitted Under**: FOSSEE Drupal Theme Submission
+
+---
